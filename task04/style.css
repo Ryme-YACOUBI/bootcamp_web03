@@ -1,0 +1,39 @@
+@media (min_width: 1024px){
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    gap:5px;
+}
+header{
+    background-color: #67B3DD;
+    height: 50px;
+    width:50%;
+}
+#second_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px;
+}
+article{
+    width:calc((100% - 10px)/3);
+    height: 50px;
+}
+#first_section{
+    background-color: #9EE062;
+    height: 50px;
+}
+footer{
+    background-color: #FC302D;
+    height: 50px;
+}
+.yellow{
+    background-color: #FEDF6B;
+}
+.purple{
+    background-color: #6B2683;
+}
+.pink{
+    background-color: #F03DB5;
+}}

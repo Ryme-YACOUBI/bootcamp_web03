@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+body{
+    display : flex;
+    flex-direction: column;
+    gap:5px;
+    margin:0;
+}
+header{
+    background-color: #67B3DD;
+    height: 50px;
+}
+footer{
+    background-color: #FC302D;
+    height: 50px;
+}
+#first_section{
+    background-color: #9EE062;
+    height: 50px;
+}
+.visible{
+    background-color: #FEDF6B;
+    height: 50px;
+}
+.not_visible{
+    display:none;
+}
+#second_section{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+}
